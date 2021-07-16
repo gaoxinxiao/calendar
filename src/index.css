@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*
+ * 
+ * @description: 描述 
+ * @author: MinterLee@hotmail.com 
+ * @Date: 2018-09-20 11:19:32 
+ * @Last Modified by: MinterLee@hotmail.com
+ * @Last Modified time: 2019-01-30 14:46:13
+ */
+
+ body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
+ blockquote,th,td{margin:0;padding:0;}
+ table{border-collapse:collapse;border-spacing:0;}
+ fieldset,img {border:0;}
+ address,caption, cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ ol,ul {list-style:none;}
+ capation,th{text-align:left;}
+ h1,h2,h3,h4,h5,h6{font-weight:normal;}
+ q:before, q:after{content:' '}
+ abbr,acronym{border:0;}
+ a {text-decoration: none;}
+ html, body, #container, .height100per{ height:100%; }
+ 
+ /* body {
+     -webkit-overflow-scrolling: touch;
+ } */
+ #body {
+     background-color: #F7F8F9;
+     font-family: "PingFangSC-Regular", "苹方", "STXihei", "华文细黑";
+ }
+ 
+ .am-toast.am-toast-mask > span {
+     max-width: 60%;
+ }
+ 
+ .am-button::before {
+     border: none !important;
+ }
+ 
+ .am-button.am-button-primary {
+     background: #FF8E22;
+     /*box-shadow: 0 8px 16px 0 rgba(253,143,66,0.30);*/
+     border-radius: 100px;
+     border: none;
+ }
+ .am-list-item.am-input-item {
+     padding: 0px !important;
+ }
+ 
+ #container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #F7F8F9;
+ }
+ 
+ .fin-middle-container {
+     overflow-y: scroll;
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+ }
+ .set-overflow{
+     overflow:visible;
+ }
+ .am-list-body {
+     background-color: transparent !important;
+     border-top: 0px !important;
+     border-bottom: 0px !important;
+ }
+ .am-list-body::before {
+     height: 0px !important;
+ }
+ 
